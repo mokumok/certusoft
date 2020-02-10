@@ -1,0 +1,22 @@
+{
+  "name": "certusoft",
+  "version": "1.0.0",
+  "description": "Certusoft system website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mokumok/certusoft.git"
+  },
+  "author": "mokumok",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mokumok/certusoft/issues"
+  },
+  "homepage": "https://github.com/mokumok/certusoft#readme",
+  "dependencies": {
+    "bulma": "^0.8.0"
+  }
+}
