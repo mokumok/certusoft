@@ -20,6 +20,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Hello Bulma!</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    
     <link rel="stylesheet" type="text/css" href="/css/main.css" />
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
   </head>
@@ -31,24 +32,24 @@
         <div class="hero-head">
             <nav class="navbar" role="navigation" aria-label="main navigation">
                 <div class="container">
-                    <div class="navbar-brand center">
+                    <div class="navbar-brand is-centered">
                         <a class="navbar-item" href="https://bulma.io">
                             <img src="/img/logo.png"
                                 alt="Bulma: Free, open source, and modern CSS framework based on Flexbox"
                                 style="max-height: 80px;">
                         </a>
                     </div>
-                    <div class="navbar-menu container center">
-                        <div class="navbar-end center" style="text-transform: uppercase; font-family: 'Futura', sans-serif;">
-                            <a class="navbar-item has-text-link	">
+                    <div class="navbar-menu container is-centered">
+                        <div class="navbar-end is-centered" style="text-transform: uppercase; font-family: 'Futura', sans-serif;">
+                            <a class="navbar-item" style="color: #4D59C0;">
                                 Strona główna
                             </a>
         
-                            <a class="navbar-item has-text-link	">
+                            <a class="navbar-item" style="color: #4D59C0;">
                                 Produkt
                             </a>
         
-                            <a class="navbar-item has-text-link	">
+                            <a class="navbar-item" style="color: #4D59C0;">
                                 Kontakt
                             </a>
                         </div>
@@ -57,12 +58,12 @@
             </nav>
         </div>
         
-        <div class="hero-body hero-image has-background-white center">
+        <div class="hero-body hero-image center">
             <div class="container">
                 <div class="columns">
                     <div class="column center">
-                      <h1 class="title is-1 is-size-3-mobile	
-                      has-text-white center" style="font-family: 'Futura', sans-serif; font-weight: bold; letter-spacing: 1px; line-height: 120%;">
+                      <h1 class="title is-1 is-size-3-mobile has-text-centered-mobile		
+                      has-text-white center" style="font-family: 'Futura', sans-serif; font-weight: bold; letter-spacing: 1px; line-height: 120%; word-break: normal;">
                         SYSTEM REKLAMACJI 
                         DOPASOWANY DO TWOICH POTRZEB
                       </h1>
@@ -83,8 +84,76 @@
         </div>
     </section>
 
-    <section class="section-info is-fullheight">
-        lorem*20
+    <section class="section-boxes is-fullheight space-section" style="padding: 20px 15px;">
+        <div class="container">
+            <div class="columns is-centered">
+                <div class="column is-5">
+                    <div class="box" style="min-height: 250px;"  >
+                        <h2 class="title has-text-grey-dark	">
+                            Integralność
+                        </h2>
+                        <p>
+                            Rozwiązania Certusoft Reklamacje są bardzo łatwo i sprawnie integrowalne z dowolnymi systemami ERP. Integrowaliśmy się z takimi systemami jak SAP, Asseco Softlab, ComarchERP, iHurt.
+                        </p>
+                    </div>
+                </div>
+                <div class="column is-5">
+                    <div class="box" style="min-height: 250px; background-color: #4D59C0;" >
+                        <h2 class="title has-text-white">
+                            Szybkość
+                        </h2>
+                        <p class="has-text-white">Wypracowane przez nas metody pozwalają na szybką i sprawną realizację wdrożenia systemu w Twojej firmie.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="columns is-centered">
+                <div class="column is-5">
+                    <div class="box" style="min-height: 250px;" >
+                        <h2 class="title has-text-grey-dark">
+                            Elastyczność
+                        </h2>
+                        <p class="">Każde rozwiązanie jest konfigurowane w oparciu o schematy procesów reklamacji w Twojej firmie. Nasz zespół w opaciu o dostarczone informacje przygotuje system dopasowany do Waszego </p>
+                    </div>
+                </div>
+                <div class="column is-5">
+                    <div class="box" style="min-height: 250px; background-color: #4D59C0;" >
+                        <h2 class="title has-text-white	">
+                            Mobilność
+                        </h2>
+                        <p class="has-text-white">System reklamacji Certusoft jest rozwiązaniem Webowym. Aby uzyskać dostęp do reklamacji swojej Firmy potrzebujesz jedynie urządzenia z dostępem do internetu.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="product space-section hero2-image hero is-fullheight">
+        <div class="hero-body">
+        <div class="container">
+            <div class="columns is-centered">
+                <div class="column is-5 center">
+                    <figure class="image">
+                    <img src="/img/product-image.svg" alt="">
+                </figure>
+                </div>
+                <div class="column is-8">
+                    <div class="container" style="padding: 0 30px;">
+                        <h2 class="title is-1 is-spaced" style="font-family: 'Futura', sans-serif; color: #4D59C0; word-break: normal;">
+                            System reklamacji CERTUSOFT
+                        </h2>
+                        
+                        <p class="subtitle has-text-grey" style="font-family: 'Montserrat', sans-serif; line-height: 130%;">
+                            Ponad ćwierć wieku współtworzenia rynku systemów ERP w Polsce umożliwiło nam poznanie tej dziedziny od podszewki.  Bogate doświadczenia wdrożeniowe pozwalają nam precyzyjnie ustalić jakie rozwiązania będą najbardziej optymalne dla Twojej firmy. Z pomocą narzędzi zbudowanych specjalnie dla Ciebie znacznie zwiększysz produktywność swojego biznesu.
+                        </p>
+                    </div>
+                   
+            
+                </div>
+            </div>
+        </div>
+    </div>
+        
     </section>
   </body>
 </html>
