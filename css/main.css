@@ -1,3 +1,5 @@
+
+
 .center {
     display: flex;
     justify-content: center;
@@ -5,7 +7,7 @@
 }
 
 .hero-image {
-    background-image: url(/img/hero.svg);
+    background-image: url(/img/hero-1.svg);
     background-position: 100% 100%;
     
     background-repeat: no-repeat;
@@ -14,16 +16,62 @@
     
 }
 
+.hero-page-height {
+    height: 100vh; 
+    height: calc(var(--vh, 1vh) * 100) !important;
+}
+
 .hero2-image {
     background-image: url(/img/product-hero.svg);
     background-position: 100%;
-    
     background-repeat: no-repeat;
+    background-size: contain;    
+}
+
+.hero3-image {
+    background-image: url(/img/diamond.svg);
+    background-position: 100%;
     
-    background-size: contain;
+    /* background-repeat: no-repeat; */
     
+    background-size: initial;
     
 }
+
+.image-hero {
+    max-width: 400px;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .image-hero {
+        width: 60%;
+    }
+    
+  }
+
+/* html,body
+{
+    width:100%;
+    overflow-x:hidden;
+    
+} */
+
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+ }
+
+
+ .column {
+    display: flex;
+  }
+/* * {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+  } */
+
 
 @media only screen and (max-width: 1000px) {
     .hero2-image {
@@ -33,5 +81,66 @@
   }
 
 .space-section {
-    margin: 150px 0;
+    margin-bottom: 150px;
 }
+
+
+
+
+/* VISIBLE NAVBAR ITEMS ON MOBILE  */
+
+
+/* .navbar-item {
+    display: flex;
+  }
+  
+  .navbar,
+  .navbar-menu,
+  .navbar-start,
+  .navbar-end {
+    align-items: stretch;
+    display: flex;
+    padding: 0;
+  }
+  
+  .navbar-menu{
+    flex-grow: 1;
+    flex-shrink: 0;
+  } */
+  /* .navbar-start{
+    justify-content: flex-start;
+    margin-right: auto;
+  }
+  .navbar-end{
+    justify-content: flex-end;
+    margin-left: auto;
+  } */
+
+
+
+  .navi {
+      height: 100px;
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .wrapper {
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+  }
+
+  @media only screen and (min-width: 600px) {
+    .wrapper {
+        width: 50%;
+    }
+    
+  }
+
+  .wrapper a {
+      font-size: 1.4rem;
+      font-family: 'Futura', sans-serif;
+  }

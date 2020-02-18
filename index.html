@@ -17,133 +17,335 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hello Bulma!</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1.0, user-scalable=no">
+
+
+    <title>Certusoft reklamacje</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" type="text/css" href="/css/bulma.css" />
     <link rel="stylesheet" type="text/css" href="/css/main.css" />
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
   </head>
   <body>
 
  
-    <section class="hero is-fullheight">
+    <div class="hero space-section hero-page-height" style="background-color: #1C325A;" id="homepage">
         
-        <div class="hero-head">
-            <nav class="navbar" role="navigation" aria-label="main navigation">
+        <!-- <div class="hero-head">
+            <nav class="navbar has-background-white" role="navigation" aria-label="main navigation">
+                <div class="navbar-brand center" style="text-transform: uppercase; font-family: 'Futura', sans-serif;">
+                  <a class="navbar-item" >
+                    <img src="/img/logos.png" style="min-height: 3rem;">
+                  </a>
+                  
+                    <a class="navbar-item">
+                      Nasz produkt
+                    </a>
+              
+                    <a class="navbar-item">
+                      Kontakt
+                    </a>
+              
+                  
+                  
+              
+            
+                </div>
+              
+                
+                 
+              
+               
+                
+              </nav>
+        </div> -->
+            <!-- <div class="columns has-background-white">
+                <div class="column center" style="margin-top: 10px;">
+                    <img src="/img/logos.png" alt="">
+                </div>
+                <div class="column center">
+                    
+                        <div class="navbar-brand  is-size-7-mobile" style="text-transform: uppercase; font-family: 'Futura', sans-serif;">
+                         
+        
+                            <a class="navbar-item has-text-black" >
+                                Nasz produkt
+                            </a>
+        
+                            <a class="navbar-item has-text-black" >
+                                Kontakt
+                            </a>
+                        </div>
+                    
+                </div>
+            </div> -->
+            <div class="hero-head">
+                <nav class="navi">
+                    <div class="wrapper">
+                        <a class="navbar-item" href="#section-product" style="color: #1F487E;">
+                            Produkt
+                        </a>
+                        <a class="navbar-item">
+                            <img src="/img/logos.png"
+                                alt="Bulma: Free, open source, and modern CSS framework based on Flexbox"
+                                style="max-height: 80px;">
+                        </a>
+                        <a class="navbar-item" href="#section-contact" style="color: #1F487E;">
+                            Kontakt
+                        </a>
+                    </div>
+                </nav>
+            <!-- <nav class="navbar has-background-white" role="navigation" aria-label="main navigation">
                 <div class="container">
-                    <div class="navbar-brand is-centered">
+                    <div class="navbar-brand center">
                         <a class="navbar-item" href="https://bulma.io">
-                            <img src="/img/logo.png"
+                            <img src="/img/logos.png"
                                 alt="Bulma: Free, open source, and modern CSS framework based on Flexbox"
                                 style="max-height: 80px;">
                         </a>
                     </div>
-                    <div class="navbar-menu container is-centered">
-                        <div class="navbar-end is-centered" style="text-transform: uppercase; font-family: 'Futura', sans-serif;">
-                            <a class="navbar-item" style="color: #4D59C0;">
-                                Strona główna
-                            </a>
-        
-                            <a class="navbar-item" style="color: #4D59C0;">
+                    <div class="navbar-menu container center">
+                        <div class="navbar-end center"
+                            style="text-transform: uppercase; font-family: 'Futura', sans-serif;">
+                          
+
+                            <a class="navbar-item" href="#section-product" style="color: #1F487E;">
                                 Produkt
                             </a>
-        
-                            <a class="navbar-item" style="color: #4D59C0;">
+
+                            <a class="navbar-item" href="#section-contact" style="color: #1F487E;">
                                 Kontakt
                             </a>
                         </div>
                     </div>
                 </div>
-            </nav>
+            </nav> -->
         </div>
         
-        <div class="hero-body hero-image center">
+
+        <!-- <div class="hero-body is-paddingless" style="background-image: linear-gradient(to top, #1b315b, #1b3361, #1b3667, #1c386d, #1c3a73);">
             <div class="container">
-                <div class="columns">
-                    <div class="column center">
-                      <h1 class="title is-1 is-size-3-mobile has-text-centered-mobile		
-                      has-text-white center" style="font-family: 'Futura', sans-serif; font-weight: bold; letter-spacing: 1px; line-height: 120%; word-break: normal;">
-                        SYSTEM REKLAMACJI 
-                        DOPASOWANY DO TWOICH POTRZEB
-                      </h1>
+                <h1 class="title is-size-1 is-size-2-mobile  has-text-white has-text-centered" style=" font-family: 'Futura', sans-serif; font-weight: bold; letter-spacing: 3px; ">
+                    CERTUSOFT
+                </h1>
+                
+                    <h2 class="title is-size-4 is-size-4-mobile has-text-centered" style="font-family: 'Futura', sans-serif; font-weight: 400; letter-spacing: 1px; line-height: 120%; word-break: normal; margin: 0 1%; color: #81aaf6;">
+                        System reklamacji dopasowany do twoich potrzeb
+                      </h2>
+
+                  <figure class="image container image-hero" style="max-width: 400px; z-index: 100;">
+                    <img src="/img/report_analysis.svg">
+                  </figure>
+            </div>
+            <figure class="image" style="position: absolute; right: 0; bottom: 99px; ">
+                <img src="/img/post.svg">
+              </figure>
+
+              <figure class="image" style="position: absolute; left: 0; bottom: 99px; ">
+                <img src="/img/post-1.svg">
+              </figure>
+
+            
+        </div> -->
+        
+        <div class="hero-body hero-image">
+            <div class="container is-fullheight">
+                <div class="columns is-8">
+                    <div class="column">
+                        <div class="container">
+                            <h1 class="title is-size-1-desktop is-size-2-tablet is-size-2-mobile  has-text-white has-text-centered-mobile animated fadeInUp"
+                                style=" font-family: 'Futura', sans-serif; font-weight: bold; letter-spacing: 3px; ">
+                                CERTUSOFT
+                            </h1>
+                            <h1 class="title is-size-4 is-size-4-mobile has-text-centered-mobile has-text-white animated fadeInUp"
+                                style="font-family: 'Futura', sans-serif; font-weight: 400; letter-spacing: 1px; line-height: 120%; word-break: normal; animation-delay: 0.2s;">
+                                System reklamacji dopasowany do twoich potrzeb
+                            </h1>
+                            <!-- <figure class="image is-hidden-touch">
+                                <img src="/img/dots.svg" alt="" style="max-width: 250px;">
+                            </figure> -->
+
+                        </div>
                     </div>
                     <div class="column center">
-                      <img src="/img/wheel-hero.svg" alt="" style="max-width: 350px;">
+                        <figure class="image animated fadeInRight" style="width: 70%; animation-delay: 0.5s;">
+                            <img src="/img/report_analysis1.svg" style="z-index: 100;">
+                        </figure>
+
                     </div>
                 </div>
+
             </div>
+            <figure class="image is-hidden-mobile animated fadeInUp" style="position: absolute; left: 15%; bottom: 130px; animation-delay: 0.7s;">
+                <img src="/img/dots.svg" alt="" style="max-width: 250px;">
+            </figure>
 
-           
-            
-           
-                <!-- <figure class="image">
-                    <img src="/img/logo.png" alt="" style="max-width: 250px;">
-                </figure> -->
-            
         </div>
-    </section>
 
-    <section class="section-boxes is-fullheight space-section" style="padding: 20px 15px;">
+        <div class="hero-foot center" style="background-color: #1F487E; height: 100px;">
+            <a href="#section-arrow" class="animated fadeInDown" style="animation-delay: 0.9s;">
+                <span class="icon is-large ">
+                <i class="fas fa-3x fa-arrow-circle-down " style="z-index: 100; color: #1BECAD;"></i>
+            </span>
+        </a>
+            <!-- <div class="container center">
+                <span class="icon is-large ">
+                    <i class="fas fa-3x fa-arrow-circle-down " style="z-index: 100; color: #1BECAD; margin-top: 40px;"></i>
+                </span>
+            </div> -->
+        </div>
+
+        <!-- <div class="hero-foot center">
+            <span class="icon is-large ">
+                <i class="fas fa-3x fa-arrow-circle-down " style="z-index: 100; color: #1BECAD; margin-bottom: 50px;"></i>
+            </span>
+        </div> -->
+        
+        
+            <!-- <img src="/img/line-hero.svg" alt="" style="position: absolute; bottom: 0;" > -->
+          
+        
+       
+    </div>
+
+    <section class="section-boxes is-fullheight space-section" style="padding: 20px 15px;" id="section-arrow">
         <div class="container">
             <div class="columns is-centered">
-                <div class="column is-5">
-                    <div class="box" style="min-height: 250px;"  >
-                        <h2 class="title has-text-grey-dark	">
-                            Integralność
-                        </h2>
-                        <p>
-                            Rozwiązania Certusoft Reklamacje są bardzo łatwo i sprawnie integrowalne z dowolnymi systemami ERP. Integrowaliśmy się z takimi systemami jak SAP, Asseco Softlab, ComarchERP, iHurt.
+                <div class="column is-5" data-aos="fade-in" data-aos-delay="200">
+                    <article class="media box">
+                        <figure class="media-left" style="padding: 0 15px;">
+                            <span class="icon is-large">
+                                <i class="far fa-3x fa-handshake" style="color: #1F487E;"></i>
+                            </span>
+                        </figure>
+                        <div class="media-content">
+                            <div class="content">
+                                <h1 class="title is-size-3-desktop is-size-4-tablet"  style="color: #595959; font-family: 'Montserrat', sans-serif;">
+                                    Integralność
+                                </h1>
+                                <p class="is-size-6">
+                                    Rozwiązania Certusoft Reklamacje są bardzo łatwo i sprawnie integrowalne z dowolnymi systemami ERP. Integrowaliśmy się z takimi systemami jak SAP, Asseco Softlab, ComarchERP, iHurt.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+
+            
+                    <!-- <div class="box" style="min-height: 250px; background-color: #F4F4F4;">
+                        <div class="media center">
+                            <div class="media-left">
+                                <div class="container">
+                                    <span class="icon is-large ">
+                                        <i class="far fa-3x fa-handshake"></i>
+                                    </span>
+
+
+                                    <div class="media-content ">
+                                        <h2 class="title has-text-grey-dark	 is-size-2 "
+                                            style="color: #595959; font-family: 'Montserrat', sans-serif;">
+                                            Integralność
+                                        </h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <p style="color: #656565;">
+                            Rozwiązania Certusoft Reklamacje są bardzo łatwo i sprawnie integrowalne z dowolnymi
+                            systemami ERP. Integrowaliśmy się z takimi systemami jak SAP, Asseco Softlab, ComarchERP,
+                            iHurt.
                         </p>
-                    </div>
+                    </div> -->
                 </div>
-                <div class="column is-5">
-                    <div class="box" style="min-height: 250px; background-color: #4D59C0;" >
-                        <h2 class="title has-text-white">
-                            Szybkość
-                        </h2>
-                        <p class="has-text-white">Wypracowane przez nas metody pozwalają na szybką i sprawną realizację wdrożenia systemu w Twojej firmie.</p>
-                    </div>
+                <div class="column is-5" data-aos="fade-in" data-aos-delay="300">
+                  
+                    <article class="media box">
+                        <figure class="media-left" style="padding: 0 15px;">
+                            <span class="icon is-large">
+                                <i class="fas fa-3x fa-arrows-alt" style="color: #1F487E;"></i>
+                            </span>
+                        </figure>
+                        <div class="media-content">
+                            <div class="content">
+                                <h1 class="title is-size-3-desktop is-size-4-tablet"  style="color: #595959; font-family: 'Montserrat', sans-serif;">
+                                    Elastyczność
+                                </h1>
+                                <p class="is-size-6">
+                                    Każde rozwiązanie jest konfigurowane w oparciu o schematy procesów reklamacji w Twojej firmie. Nasz zespół w opaciu o dostarczone informacje przygotuje system dopasowany do Waszego.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
                 </div>
             </div>
 
             <div class="columns is-centered">
-                <div class="column is-5">
-                    <div class="box" style="min-height: 250px;" >
-                        <h2 class="title has-text-grey-dark">
-                            Elastyczność
-                        </h2>
-                        <p class="">Każde rozwiązanie jest konfigurowane w oparciu o schematy procesów reklamacji w Twojej firmie. Nasz zespół w opaciu o dostarczone informacje przygotuje system dopasowany do Waszego </p>
-                    </div>
+                <div class="column is-5" data-aos="fade-in" data-aos-delay="400">
+                    <article class="media box" style="background-color: #1F487E;">
+                        <figure class="media-left" style="padding: 0 15px;">
+                            <span class="icon is-large">
+                                <i class="fas fa-3x fa-mobile-alt" style="color: rgb(255, 255, 255);"></i>
+                            </span>
+                        </figure>
+                        <div class="media-content">
+                            <div class="content">
+                                <h1 class="title is-size-3-desktop has-text-white"  style=" font-family: 'Montserrat', sans-serif;">
+                                    Mobilność
+                                </h1>
+                                <p class="is-size-6 has-text-white">
+                                    System reklamacji Certusoft jest rozwiązaniem Webowym. Aby uzyskać dostęp do reklamacji swojej Firmy potrzebujesz jedynie urządzenia z dostępem do internetu.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                   
                 </div>
-                <div class="column is-5">
-                    <div class="box" style="min-height: 250px; background-color: #4D59C0;" >
-                        <h2 class="title has-text-white	">
-                            Mobilność
-                        </h2>
-                        <p class="has-text-white">System reklamacji Certusoft jest rozwiązaniem Webowym. Aby uzyskać dostęp do reklamacji swojej Firmy potrzebujesz jedynie urządzenia z dostępem do internetu.</p>
-                    </div>
+
+                <div class="column is-5" data-aos="fade-in" data-aos-delay="500">
+                    <article class="media box" style="background-color: #1F487E;">
+                        <figure class="media-left" style="padding: 0 15px;">
+                            <span class="icon is-large">
+                                <i class="fas fa-3x fa-tachometer-alt" style="color: rgb(255, 255, 255);"></i>
+                            </span>
+                        </figure>
+                        <div class="media-content">
+                            <div class="content">
+                                <h1 class="title is-size-3-desktop has-text-white"  style="font-family: 'Montserrat', sans-serif;">
+                                    Szybkość
+                                </h1>
+                                <p class="is-size-6 has-text-white">
+                                    Wypracowane przez nas metody pozwalają na szybką i sprawną realizację wdrożenia systemu w Twojej firmie.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                   
+
+
+                   
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="product space-section hero2-image hero is-fullheight">
+    <section class="section-product space-section hero2-image hero is-fullheight" id="section-product">
         <div class="hero-body">
         <div class="container">
             <div class="columns is-centered">
-                <div class="column is-5 center">
+                <div class="column is-5 center" data-aos="fade-left" data-aos-delay="200">
                     <figure class="image">
                     <img src="/img/product-image.svg" alt="">
                 </figure>
                 </div>
                 <div class="column is-8">
                     <div class="container" style="padding: 0 30px;">
-                        <h2 class="title is-1 is-spaced" style="font-family: 'Futura', sans-serif; color: #4D59C0; word-break: normal;">
+                        <h2 class="title is-1 is-size-3-mobile is-spaced" data-aos="fade-up" data-aos-delay="100" style="font-family: 'Futura', sans-serif; color: #1F487E; word-break: normal;">
                             System reklamacji CERTUSOFT
                         </h2>
                         
-                        <p class="subtitle has-text-grey" style="font-family: 'Montserrat', sans-serif; line-height: 130%;">
+                        <p class="subtitle has-text-grey" data-aos="fade-up" data-aos-delay="300" style="font-family: 'Montserrat', sans-serif; line-height: 130%;">
                             Ponad ćwierć wieku współtworzenia rynku systemów ERP w Polsce umożliwiło nam poznanie tej dziedziny od podszewki.  Bogate doświadczenia wdrożeniowe pozwalają nam precyzyjnie ustalić jakie rozwiązania będą najbardziej optymalne dla Twojej firmy. Z pomocą narzędzi zbudowanych specjalnie dla Ciebie znacznie zwiększysz produktywność swojego biznesu.
                         </p>
                     </div>
@@ -155,5 +357,248 @@
     </div>
         
     </section>
+
+    <section class="3-things space-section">
+        <div class="container">
+            <div class="columns">
+                <div class="column center">
+                    <div class="box" style="max-width: 90%;" data-aos="fade-up" data-aos-delay="100">
+                        <article class="media is-info center">
+                            <span class="icon " style="margin-bottom: 30px; color: #1E477D;">
+                                <i class="fas fa-3x fa-user"></i>
+                            </span>
+                        </article>
+                        <h2 class="title has-text-grey-dark center">
+                            Tailored product
+                        </h2>
+                        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quam aliquid, quo
+                            minus modi aut accusantium et maiores! Necessitatibus asperiores ducimus distinctio vero
+                            rerum laboriosam voluptate accusantium omnis fugit inventore. </p>
+
+                    </div>
+                </div>
+
+                <div class="column center">
+                    <div class="box" style="max-width: 90%;" data-aos="fade-up" data-aos-delay="300">
+                        <article class="media is-info center">
+                            <span class="icon" style="margin-bottom: 30px; color: #1E477D;">
+                                
+                                <i class="fas fa-3x fa-th-large center"></i>
+                            </span>
+                        </article>
+                        <h2 class="title has-text-grey-dark center">
+                            Best system
+                        </h2>
+                        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quam aliquid, quo
+                            minus modi aut accusantium et maiores! Necessitatibus asperiores ducimus distinctio vero
+                            rerum laboriosam voluptate accusantium omnis fugit inventore. </p>
+
+                    </div>
+                </div>
+                <div class="column center">
+                    <div class="box" style="max-width: 90%;" data-aos="fade-up" data-aos-delay="500">
+                        <article class="media is-info center">
+                            <span class="icon" style="margin-bottom: 30px; color: #1E477D;">                        
+                                <i class="far fa-3x fa-life-ring center"></i>
+                            </span>
+                        </article>
+                        <h2 class="title has-text-grey-dark center">
+                            Awesome support
+                        </h2>
+                        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quam aliquid, quo
+                            minus modi aut accusantium et maiores! Necessitatibus asperiores ducimus distinctio vero
+                            rerum laboriosam voluptate accusantium omnis fugit inventore. </p>
+                        
+                    </div>
+                </div>
+              
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section-working space-section hero3-image" id="section-contact" style="background-color: #1F487E; font-family: 'Futura', sans-serif;">
+        <div class="container">
+            <div class="hero-body ">
+                <div class="container">
+                    <div class="columns">
+                        <div class="column center">
+                            <div class="container" style="padding: 0 5%;">
+                                <h2 class="title is-uppercase has-text-weight-bold" data-aos="fade-up" data-aos-delay="100" style="color: rgb(255, 255, 255);">Masz dodatkowe pytania?</h2>
+                                <p class="is-size-5 has-text-white" data-aos="fade-left" data-aos-delay="200">Skontaktuj się z nami</p>
+                            </div>
+                        </div>
+                        <div class="column is-two-fifths">
+                            <div class="container">
+                                <div class="box" data-aos="fade-up" data-aos-delay="300">
+                                    <div class="media">
+                                        <figure class="media-left">
+                                            <i class="far fa-3x fa-envelope-open" style="color: #1F487E;"></i>
+                                        </figure>
+                                        <div class="media-content center" style="align-self: center;">
+                                            <p class="is-size-5">reklamacje@certusoft.pl</p>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="media">
+                                        <figure class="media-left">
+                                            <i class="fas fa-3x fa-phone" style="color: #1F487E;"></i>
+                                        </figure>
+                                        <div class="media-content center" style="align-self: center;">
+                                            <p class="is-size-5">652-224-059</p>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="columns" style="justify-content: space-evenly;">
+                        <div class="column is-two-fifths">
+                            <div class="container">
+                                <h2 class="title is-1 is-size-3-mobile has-text-white">Chcesz lepiej poznać nasze
+                                    rozwiązania?</h2>
+                                <p class="is-size-5	has-text-grey-lighter	">Przetestuj nasze oprogramowanie, aby być
+                                    pewnym, że nasz system jest idealnie dopasowany do twoich potrzeb.</p>
+                            </div>
+                        </div>
+                        <div class="column is-two-fifths ">
+                            <div class="container" style="margin: 50px 0;">
+
+                                <span class="icon has-text-white" style="margin-bottom: 30px;">
+                                    <i class="fas fa-3x fa-quote-right center"></i>
+                                </span>
+
+                                <h2 class="title is-size-5-mobile has-text-white ">
+                                    Best system i’ve been using in my company.
+                                </h2>
+                                <p class="has-text-white is-pulled-right is-size-3 has-text-weight-bold	">CEO Tryumf
+                                </p>
+                            </div>
+
+                        </div>
+                    </div> -->
+                </div>
+                <div class="container center" style="padding-top: 100px;">
+                    <img src="/img/handshake-monochrome-800px.png" alt="" style="max-height: 250px;" data-aos="fade-down" data-aos-delay="700">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- <section class="section-contact space-section" style="font-family: 'Futura', sans-serif;">
+        <div class="container">
+            <div class="columns">
+                <div class="column center">
+                    <div class="container" style="padding: 0 5%;">
+                        <h2 class="title is-uppercase has-text-weight-bold	" style="color: #1F487E;">Masz dodatkowe pytania?</h2>
+                        <p class="is-size-5">Skontaktuj się z nami</p>
+                    </div>
+                </div>
+                <div class="column is-two-fifths">
+                    <div class="container">
+                        <div class="box">
+                        <div class="media">
+                        <figure class="media-left">
+                            <i class="far fa-3x fa-envelope-open" style="color: #1F487E;"></i>
+                        </figure>
+                        <div class="media-content center" style="align-self: center;">
+                            <p class="is-size-5">reklamacje@certusoft.pl</p>
+                        </div>
+                    </div>
+                    
+
+                    <div class="media">
+                        <figure class="media-left">
+                            <i class="fas fa-3x fa-phone" style="color: #1F487E;"></i>
+                        </figure>
+                        <div class="media-content center" style="align-self: center;">
+                            <p class="is-size-5">652-224-059</p>
+                        </div>
+                        
+                    </div>
+
+                    
+                </div>
+            </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="section-trusted-us" style="font-family: 'Futura', sans-serif;">
+        <div class="container">
+            <h2 class="title center">
+                Zaufali nam:
+            </h2>
+            <div class="container">
+                <div class="columns is-8 is-multiline is-mobile">
+                    <div class="column center is-half-mobile">
+                        <figure class="image is-128x128">
+                            <img src="/img/1.png" alt="" >
+                        </figure>
+
+                    </div>
+                    <div class="column center is-half-mobile">
+                        <figure class="image is-128x128">
+                            <img src="/img/2.png" alt="" >
+                        </figure>
+                    </div>
+                    <div class="column center is-half-mobile">
+                        <figure class="image is-128x128">
+                            <img src="/img/3.png" alt="" >
+                        </figure>
+                    </div>
+                    <div class="column center is-half-mobile">
+                        <figure class="image is-128x128">
+                            <img src="/img/4.png" alt="" >
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer has-background-black is-paddingless ">
+
+            <div class="columns">
+                <div class="column center">
+                    <img src="/img/logos.png" alt="">
+                </div>
+                <div class="column center">
+                    
+                        <div class="navbar-brand  is-size-7-mobile" style="text-transform: uppercase; font-family: 'Futura', sans-serif;">
+                            <a class="navbar-item has-text-white" href="#homepage" >
+                                Do góry
+                            </a>
+        
+                            <a class="navbar-item has-text-white" >
+                                Produkt
+                            </a>
+        
+                            <a class="navbar-item has-text-white" >
+                                Kontakt
+                            </a>
+                        </div>
+                    
+                </div>
+            </div>
+        
+         <!-- <h3 class="title is-uppercase has-text-white">Certusoft</h3> -->
+         
+         
+        
+      </footer>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="/jquery.malihu.PageScroll2id.js"></script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     
+      <script type="text/javascript" src="/index.js"></script>    
   </body>
+  
 </html>
